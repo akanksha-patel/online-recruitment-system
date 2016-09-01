@@ -1,0 +1,34 @@
+body{
+margin:0px;
+background-color:#5f2f59;
+width:1000px;
+height:700px;
+/*border:5px solid red;*/
+}
+
+#main_body{
+	margin:75px auto;
+	width:80%;
+	/*border:5px solid yellow;*/
+	
+}
+
+#menu1{
+	background-color:#e7cfe4;
+	height:35px;
+}
+
+#main{
+	/*border:5px solid blue;*/
+	margin:0px auto;
+	height:450px;
+	background-color:white;
+	position:relative;
+}
+
+#info{
+	height:470px;
+	width:200px;
+	color:red;
+	background: url("images\campus.jpg");
+}

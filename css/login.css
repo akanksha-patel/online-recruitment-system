@@ -1,0 +1,81 @@
+form{
+	position:absolute;
+	left: 200px;
+	top: 150px;
+	width: 350px;
+	background-color: #e7cfe4;
+	border-radius: 5px;
+	font-family: verdana;
+	box-shadow: 10px 10px 5px #2a0b08;
+	
+}
+#login{
+	/*border: 1px solid white;*/
+	border-spacing: 2px;
+	font-size: 14px;
+	color: #72176c;
+	margin: 0px auto;
+	border-radius: 10px;
+	
+}
+#main_body{
+	margin:75px auto;
+	width:80%;
+	
+	/*border:5px solid yellow;*/
+}
+td{
+	/*border:1px solid white;*/
+}
+.msg{
+	border:2px solid red;
+	background-color:yellow;
+	color:red;
+	font-size:20px;
+	font-family:verdana;
+	width:500px;
+	float:right;
+	text-align:center;
+	padding:4px;
+}
+.lbl{
+	width:35%;
+	text-align:right;
+	padding-top:5px;
+}
+.cln{
+	width:2%;
+}
+.txtfldtd{
+	width:63%;
+}
+.txtfld{
+	width:180px;
+}
+#warn{
+	font-size:12px;
+	text-align:right;
+}
+#caption{
+	font-family:Constantia;
+	font-weight:bold;
+	padding-bottom:10px;
+	font-size:22px;
+	text-align:center;
+	text-decoration:underline;
+	
+}
+#noname:Hover{
+	box-shadow: 3px 3px 3px red;
+}
+.wmsg{
+	font-size:12px;
+	padding-top:0px;
+}
+#btn{
+	text-align:center;
+}
+#sub_btn{
+	width:100px;
+	font-weight:bold;
+}

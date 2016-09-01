@@ -1,0 +1,45 @@
+#candimenu{
+	margin:0px 20px;
+	padding:0px;
+}
+#candimenu ul{
+	margin:0px;
+	padding:0px;
+	/*line-height:30px;*/
+	/*border:1px solid;*/
+}
+#candimenu li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+	position:relative;
+}
+#candimenu ul ul{
+	position:absolute;
+	padding-top:30px;
+	display:none;
+}
+
+#candimenu ul li a:link, a:visited{
+	font-family:verdana;
+	font-size:12;
+	width: 130px;
+	color: white;
+	display:block;
+	background: linear-gradient(to top, #080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898);
+	text-align: center;
+	padding:8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid #162939;
+}
+
+#candimenu ul li a:hover, a:active{
+	background :linear-gradient(to bottom , #080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898); ;
+	color:white;
+}
+
+#candimenu ul li:hover ul{
+	display:block;
+}

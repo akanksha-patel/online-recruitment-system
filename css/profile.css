@@ -1,0 +1,10 @@
+.edit, .cancel{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.cancel{
+	display: none;
+}
+

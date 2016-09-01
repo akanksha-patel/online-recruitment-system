@@ -1,0 +1,20 @@
+td{
+	padding:7px;
+}
+table{
+	float:left;
+	border-spacing:7px;
+}
+
+input[type=submit]{
+	width:70px;
+}
+.personal{
+	border:2px solid white;
+	border-radius:10px;
+	color:white;
+	background-color:#2D2D2D;
+	position:relative;
+	left:500px;
+	top:100px;
+}

@@ -1,0 +1,41 @@
+a:link, a:visited {
+	float:right;
+  font-family:verdana;
+	font-size:14;
+	display: block;
+	width: auto;
+	color: white;
+	background: linear-gradient(to top,#080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898);
+	text-align: center;
+	padding:5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid #162939;
+}
+a:hover, a:active{
+	background :linear-gradient(to bottom ,#080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898); ;
+	color:white;
+}
+#contact_form{
+	/*border:2px solid black;*/
+	width:750px;
+	position:relative;
+	left:30px;
+	top:30px;
+	padding:10px 0px;
+	background-color:#5382a1;
+	
+}
+#contact_table{
+	margin:0 auto;
+	border:2px solid white;
+	border-spacing:5px;
+	font-size:14px;
+	color:white;
+	width:90%;
+	padding:20px;
+	
+}
+td{
+	/*border:1px solid black;*/
+}

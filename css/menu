@@ -1,0 +1,35 @@
+	float:left;
+	list-style:none;
+	position:relative;
+	/*border:1px solid;*/
+}
+
+#candimenu ul li a:link, a:visited{
+	font-family:verdana;
+	font-size:12;
+	width: 130px;
+	color: white;
+	display:block;
+	background: linear-gradient(to top, #080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898);
+	text-align: center;
+	padding:10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid #162939;
+}
+
+#candimenu ul li a:hover, a:active{
+	background :linear-gradient(to bottom , #080808,#101010 ,#181818 ,#202020 ,#282828 ,#303030 ,#383838 ,#404040 ,#484848 ,#505050 ,#585858 ,#606060 ,#686868 ,#707070 ,#787878 ,#808080 ,#888888 ,#909090 ,#989898); ;
+	color:white;
+}
+
+#candimenu ul ul{
+	position:absolute;
+	padding-top:5px;
+	display:none;
+	top:30px;
+}
+
+#candimenu ul li:hover ul{
+	display:block;
+}
